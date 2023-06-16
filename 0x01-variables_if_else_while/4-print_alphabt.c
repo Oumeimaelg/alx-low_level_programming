@@ -7,15 +7,18 @@
  * Return: Always 0 (Success)
  */
 int main(void)
+
 {
-	int i;
-	
-	for (i = 97; i < 123; i++)
+
+	char low, e, q;
+
+	e = 'e';
+	q = 'q';
+
+	for (low = 'a'; low <= 'z'; low++)
 	{
-		if (i != 101 && i != 113)
-		{
-			putchar(i);
-		}
+		if (low != e && low != q)
+			putchar(low);
 	}
 	putchar('\n');
 	return (0);
