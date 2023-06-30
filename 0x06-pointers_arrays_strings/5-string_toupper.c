@@ -3,6 +3,7 @@
 /**
  * string_toupper - change all lowercase to uppercase
  * @n: pointer
+ * @str: string toupper
  * Return: n
  */
 
@@ -17,6 +18,6 @@ if (str[index] >= 'a' && str[index] <= 'z')
 str[index] -= 32;
 index++;
 }
-return (n);
+return (str);
 
 }
